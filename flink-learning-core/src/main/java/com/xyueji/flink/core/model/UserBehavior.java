@@ -1,4 +1,4 @@
-package com.xyueji.flink.project.topnhot;
+package com.xyueji.flink.core.model;
 
 /**
  * @author xiongzhigang

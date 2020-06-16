@@ -8,6 +8,13 @@ public class Student {
   private String password;
   private long age;
 
+  public Student(long id, String name, String password, long age) {
+    this.id = id;
+    this.name = name;
+    this.password = password;
+    this.age = age;
+  }
+
   @Override
   public String toString() {
     return "Student{" +

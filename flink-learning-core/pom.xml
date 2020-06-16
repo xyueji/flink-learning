@@ -11,5 +11,8 @@
 
     <artifactId>flink-learning-core</artifactId>
 
+    <dependencies>
+
+    </dependencies>
 
 </project>

@@ -1,4 +1,4 @@
-package com.xyueji.flink.examples.datasource;
+package com.xyueji.flink.connectors.kafka;
 
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
