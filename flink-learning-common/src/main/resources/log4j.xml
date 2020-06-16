@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/'>
+
+	<appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+		<param name="Encoding" value="UTF-8" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%d{MM-dd HH\:mm\:ss} %-5p] %c{4}\:%L - %m%n" />
+		</layout>
+	</appender>
+
+    <category name="com.wanmei.*" additivity="false">
+        <priority value="info" />
+        <appender-ref ref="STDOUT" />
+    </category>
+
+	<root>
+		<level value="info" />
+		<appender-ref ref="STDOUT" />
+	</root>
+</log4j:configuration>
